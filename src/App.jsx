@@ -1,12 +1,9 @@
-import "./App.css";
-import Post from "./components/Post";
+import PostList from "./components/PostList";
 
 function App() {
   return (
     <main>
-      <Post name="Deni" msg = "hello"/>
-      <Post />
-      <Post />
+      <PostList />
     </main>
   );
 }
