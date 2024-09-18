@@ -1,11 +1,11 @@
-const names = ['Deni', 'Greeshma'];
 
-function Post() {
-    const chosenName = Math.random() > 0.5 ? names[0] : names[1];
+
+function Post(props) {
+
   return (
     <div>
-      <p>{chosenName}!</p>
-      <p>How are you !!</p>
+      <p>{props.name}!</p>
+      <p>{props.msg}</p>
     </div>
   );
 }
